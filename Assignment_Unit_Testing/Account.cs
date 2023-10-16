@@ -8,9 +8,9 @@ namespace Assignment_Unit_Testing
 {
     public abstract class Account
     {
-        internal double _balance;
+        public double _balance;
 
-        internal Account(double balance)
+        public Account(double balance)
         {
             _balance = balance;
         }
